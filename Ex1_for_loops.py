@@ -33,6 +33,8 @@ print("-------------------------------------------\n"
 #     print("Hello number", i)
 #
 # Write your code below:
+for i in range(5):
+    print("Hello Hinsha")
 
 
 # Task 2: Counting with for loops
@@ -43,7 +45,7 @@ print("-------------------------------------------\n"
 # You can use range() to count numbers up or down.
 #
 # TODO:
-# 1. Use a for loop with range() to print numbers from 1 to 10.
+# 1.
 # 2. Then, write another loop that counts down from 10 to 1.
 # 3. Print a message before and after the loop (for example: "Counting up..." and "Counting down...").
 #
@@ -52,6 +54,10 @@ print("-------------------------------------------\n"
 #     print(i)
 #
 # Write your code below:
+for i in range(1,11):
+    print("Counting Up :",i)
+for n in range(10,0,-1):
+    print(n)
 
 
 # Task 3: Using for loops with user input
@@ -71,7 +77,9 @@ print("-------------------------------------------\n"
 #     print("This is loop", i + 1)
 #
 # Write your code below:
-
+user_number=int(input("Enter the number:"))
+for i in range(user_number):
+  print("Hello class",i+1)
 
 # -------------------------------------------
 # Submitting Your Work (after Tasks 1–3)
@@ -109,6 +117,10 @@ print("-------------------------------------------\n"
 #     print(letter)
 
 # Write your code below:
+user_word =input("Enter a word :")
+for letter in user_word:
+    print(letter)
+
 
 
 # Extension 2:
@@ -121,6 +133,8 @@ print("-------------------------------------------\n"
 # Hint: You can use range(start, stop, step) — for example, range(0, 10, 2)
 
 # Write your code below:
+number=int(input("Enter a number:"))
+for
 
 
 # Extension 3 (a bit harder):
@@ -143,6 +157,11 @@ print("-------------------------------------------\n"
 # n
 
 # Write your code below:
+user_name=input("Enter your name :")
+for letter in user_name:
+   if letter == " ":
+     print(letter)
+  
 
 
 # -------------------------------------------
