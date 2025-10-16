@@ -117,6 +117,10 @@ print("-------------------------------------------\n"
 #     print(letter)
 
 # Write your code below:
+user_word =input("Enter a word :")
+for letter in user_word:
+    print(letter)
+
 
 
 # Extension 2:
@@ -129,6 +133,8 @@ print("-------------------------------------------\n"
 # Hint: You can use range(start, stop, step) — for example, range(0, 10, 2)
 
 # Write your code below:
+number=int(input("Enter a number:"))
+for
 
 
 # Extension 3 (a bit harder):
@@ -151,6 +157,11 @@ print("-------------------------------------------\n"
 # n
 
 # Write your code below:
+user_name=input("Enter your name :")
+for letter in user_name:
+   if letter == " ":
+     print(letter)
+  
 
 
 # -------------------------------------------
